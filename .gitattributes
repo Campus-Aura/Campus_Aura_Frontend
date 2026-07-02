@@ -1,0 +1,29 @@
+# Normalize line endings to LF for all text files (cross-platform team safety)
+* text=auto eol=lf
+
+# Dart source files
+*.dart text eol=lf
+
+# YAML / config
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+
+# Shell / scripts
+*.sh   text eol=lf
+*.bat  text eol=crlf
+
+# Binary assets – never diff
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.svg  binary
+*.ttf  binary
+*.otf  binary
+*.woff binary
+*.woff2 binary
+*.zip  binary
+*.jar  binary
